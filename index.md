@@ -3,7 +3,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Sumire T | Homestead High School | Electrical Engineering | Incoming Senior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -67,11 +67,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Nano 33 BLE Sense with Headers | What the item is used for | $43.50 | <a href="https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense-with-headers"> Link </a> |
+| Anker PowerCore 5000 Portable Charger | Hardware, What the item is used for | $17.99 | <a href="https://a.co/d/bzSM61g"> Link </a> |
+| 18" x 2" Cinch Strap | What the item is used for | $18.53 | <a href="https://a.co/d/isdqSpr"> Link </a> |
+| Cardboard | Build a relatively sturdy case if 3D case is not an option |$0 - $9.81 | <a href="https://www.staples.com/Corrugated-Sheet-24-x-48-5-Bundle-SP2448/product_946708?cid=PS:GS:SBD:PLA:MS&gclid=CjwKCAjw-b-kBhB-EiwA4fvKrGfs_8eTA5h1a_B92vL9k0gwqHrUV5KCjFd3ZyT2keSoWiSbKTE8qhoCt64QAvD_BwE"> Link </a> |
+| 3D Case | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
