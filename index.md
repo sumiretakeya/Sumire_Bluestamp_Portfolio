@@ -41,8 +41,18 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your plan is to complete your project
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
-- Connected Arduino to Edge Impulse
-- Collected data
+ 
+My project is the machine-learning fitness tracker, a device one attaches to their arm that is powered by an Arduino through BLE (Bluetooth Low Energy) connection that detects different exercises (Ex: jumping jacks, squats, etc.) and ultimately records the number of repetitions on a user interface. 
+For my first milestone, I first set up the Arduino (a microcontroller) by connecting it to Edge Impulse, a platform that uses embedded machine learning. I got the Arduino to be recognized by running the command "edge-impulse-daemon" on the terminal. 
+
+To collect data in a similar manner to the actual armband, I made a prototype case by gluing cardboard pieces together. 
+For the placement of the armband, I placed it in the middle of the lower part of the arm to accurately record the movements of the exercises. 
+I collected data on two exercises: arm circles and lateral rises. I recorded the exercises on the Arduino at 30 second intervals. I repeated this four times for a total of 2 minutes of data per exercise then went around collecting data from two other people besides myself.
+A challenge that I faced was finding a way to take accurate data with the armband, as I initially attached the armband too loosely on the upper part of the arm, which caused the Arduino unable to detect accurate movement. To solve this, I attached the armband on the middle of the lower part of the arm. 
+
+Another challenge that I faced was initially only recording data from myself, which resulted in the model having a 100% accuracy, which meant that it was overtrained with my movements, and would not be able to detect the same exercise if another person were to try it. To solve this, I collected data from more people. 
+
+For the next milestone, I will train the machine learning model on Edge Impulse and test it until I get good accuracy. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xJzyyJrNCDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
