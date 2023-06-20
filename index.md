@@ -98,7 +98,6 @@ Here is the list of materials that I used for my project. One can either choose 
 | 18" x 2" Cinch Strap | What the item is used for | $18.53 | <a href="https://a.co/d/isdqSpr"> Link </a> |
 | Cardboard | Build a relatively sturdy case if 3D case is not an option |$0 - $9.81 | <a href="https://www.staples.com/Corrugated-Sheet-24-x-48-5-Bundle-SP2448/product_946708?cid=PS:GS:SBD:PLA:MS&gclid=CjwKCAjw-b-kBhB-EiwA4fvKrGfs_8eTA5h1a_B92vL9k0gwqHrUV5KCjFd3ZyT2keSoWiSbKTE8qhoCt64QAvD_BwE"> Link </a> |
 | 3D Case | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
 
 <!--- # Dimensions of 3D Case -->
 
