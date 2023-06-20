@@ -1,7 +1,9 @@
 # ML Fitness Tracker
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
-("Add a Hook Here* Something like: Ever wish you could track your fitness progress? Want a friend/device to count your never-ending reps? (Well,) Look no further. ). An Arduino powered, BLE (Bluetooth Low Energy) based fitness tracker that detects numerous exercises and records the number of repetitions on a user interface (Insert Name Here).
+<!--- ("Add a Hook Here* Something like: Ever wish you could track your fitness progress? Want a friend/device to count your never-ending reps? (Well,) Look no further. ). An Arduino powered, BLE (Bluetooth Low Energy) based fitness tracker that detects numerous exercises and records the number of repetitions on a user interface (Insert Name Here). -->
+
+Ever wish you could track your fitness progress? Want a friendly device to count your never-ending reps? Well, Look no further. GetFit is an Arduino powered, BLE (Bluetooth Low Energy) based fitness tracker that detects numerous exercises and records the number of repetitions on a user interface (Insert Name Here).
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -9,7 +11,7 @@
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
-![Headstone Image](Sumire-Headshot.png)
+![Headstone Image](Sumire-Headshot.png=250x250)
   
 # Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
