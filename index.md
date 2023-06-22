@@ -32,21 +32,21 @@ Ever wish you could track your fitness progress? Want a friendly device to count
 - What needs to be completed before your final milestone -->
 
 For my second milestone, I trained my machine learning model from my collected data from two exercises on Edge Impulse, an embedded machine learning operations platform, and was able to get an accuracy of 96.64%, which I then proceeded to deploy into an Arduino zip library.  (An automatically generated neural network with the best settings for the model)
- 
-I then made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, "firebase init". 
- 
-Additionally, I uploaded the original source code of the model library, to understand how the user interface establishes a Bluetooth Low Energy connection with the Arduino and works like a counter. 
- 
-I worked with the original source code and library, which I knew would upload without external errors, before uploading my own code and library into the Arduino Nano, (Reason Here).   
- 
-After uploading both the original source code and library zip file to the IDE, I uploaded it to the Arduino Nano. 
- 
+
+I then made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, "firebase init".
+
+Additionally, I uploaded the original source code of the model library, to understand how the user interface establishes a Bluetooth Low Energy connection with the Arduino and works like a counter.
+
+I worked with the original source code and library, which I knew would upload without external errors, before uploading my own code and library into the Arduino Nano, (Reason Here).
+
+After uploading both the original source code and library zip file to the IDE, I uploaded it to the Arduino Nano.
+
 I added the Firebase configuration to the script.js file of the original source file.
- 
-I then opened the website created through Firebase and enabled "Experimental Web Platform Features" by going to "chrome://flags" to access Bluetooth using Chrome. 
- 
-When accessing the webpage "https://mlfitnesstracker.web.app", which I created through Firebase, the user interface worked seamlessly, as I was able to successfully connect the Arduino Nano with a Bluetooth connection (the feature), and the counter of exercises worked, meaning that if one holding the Arduino Nano were to do one arm circle, the counter on the user interface would display an additional arm circle. 
- 
+
+I then opened the website created through Firebase and enabled "Experimental Web Platform Features" by going to "chrome://flags" to access Bluetooth using Chrome.
+
+When accessing the webpage "https://mlfitnesstracker.web.app", which I created through Firebase, the user interface worked seamlessly, as I was able to successfully connect the Arduino Nano with a Bluetooth connection (the feature), and the counter of exercises worked, meaning that if one holding the Arduino Nano were to do one arm circle, the counter on the user interface would display an additional arm circle.
+
 For my next milestone, I will use my own code and library from my machine learning model to set up the user interface and exercise counter. 
 
 <!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
