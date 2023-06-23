@@ -607,13 +607,13 @@ UI Code:
 *Code Here*
 ```
 GitHub Link to Source Code:
-(https://github.com/CodersCafeTech/GetFit)
+[https://github.com/CodersCafeTech/GetFit](https://github.com/CodersCafeTech/GetFit)
 
 GitHub Link to My Arduino Library:
-(https://github.com/sumiretakeya/MlLibrary)
+[https://github.com/sumiretakeya/MlLibrary](https://github.com/sumiretakeya/MlLibrary)
 
 GitHub Link to My UI Files:
-(https://github.com/sumiretakeya/htmlFile)
+[https://github.com/sumiretakeya/htmlFile](https://github.com/sumiretakeya/htmlFile)
 
 <!--- ```c++
 void setup() {
