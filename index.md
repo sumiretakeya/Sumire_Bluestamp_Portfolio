@@ -63,7 +63,7 @@ I added the Firebase configuration to the script.js file of the original source 
 
 I then opened the website created through Firebase and enabled "Experimental Web Platform Features" by going to "chrome://flags" to access Bluetooth using Chrome.
 
-When accessing the webpage "https://mlfitnesstracker.web.app", which I created through Firebase, the user interface worked seamlessly, as I 
+When accessing the webpage "https://ml-fitness-tracker.web.app", which I created through Firebase, the user interface worked seamlessly, as I 
 was able to successfully connect the Arduino Nano with a Bluetooth connection (the feature), and the counter of exercises worked, meaning that if one holding the Arduino Nano were to do one arm circle, the counter on the user interface would display an additional arm circle.
 
 For my next milestone, I will use my own code and library from my machine learning model to set up the user interface and exercise counter.
