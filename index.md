@@ -26,7 +26,7 @@ Ever wish you could track your fitness progress? Want a friendly device to count
 Demo Video:
 
 
-https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/55450ab6-f7dc-458d-80a8-d68b60c8b0ac
+https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f6969769-0264-4eab-8673-bed45a49b241
 
 
 # Second Milestone
