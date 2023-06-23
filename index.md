@@ -23,6 +23,11 @@ Ever wish you could track your fitness progress? Want a friendly device to count
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+Demo Video:
+
+
+https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/55450ab6-f7dc-458d-80a8-d68b60c8b0ac
+
 
 # Second Milestone
 <!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
