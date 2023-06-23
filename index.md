@@ -607,7 +607,7 @@ UI Code:
 *Code Here*
 ```
 GitHub Link to Source Code:
-https://github.com/CodersCafeTech/GetFit
+(https://github.com/CodersCafeTech/GetFit)
 
 GitHub Link to My Arduino Library:
 (https://github.com/sumiretakeya/MlLibrary)
