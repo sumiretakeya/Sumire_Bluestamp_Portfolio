@@ -609,6 +609,12 @@ UI Code:
 GitHub Link to Source Code:
 https://github.com/CodersCafeTech/GetFit
 
+GitHub Link to My Arduino Library:
+(https://github.com/sumiretakeya/MlLibrary)
+
+GitHub Link to My UI Files:
+(https://github.com/sumiretakeya/htmlFile)
+
 <!--- ```c++
 void setup() {
   // put your setup code here, to run once:
@@ -643,7 +649,7 @@ Here is the list of materials that I used for my project. One can either choose 
 # Other Resources
 
 Link to Helpful Websites Used to Complete this Project:
-https://docs.google.com/document/d/1gp4OPdYfRvL58Zp1qBMSvtmFS1bA3fpqKweGuT3sNpk/edit?usp=sharing
+(https://docs.google.com/document/d/1gp4OPdYfRvL58Zp1qBMSvtmFS1bA3fpqKweGuT3sNpk/edit?usp=sharing)
 
 Other:
 
