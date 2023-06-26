@@ -38,11 +38,12 @@ However, while making these changes, the format of the user interface became dis
 I deployed my updated user interface through the command "firebase deploy" and opened the (generated) Firebase project link, "ml-fitness-tracker.web.app", which successfully displayed the features relevant to my machine learning model. (Only two exercises on main menu). After connecting the Arduino to the user interface through BLE, the counter accurately displayed the name of the exercises and recorded the number of repetitions, which meant that my own model was able to execute the features of the original file.
 
 For my next milestone, I would like to make a juggling counter (instead of a fitness counter) by setting up an entirely new project and recreating the steps of the three milestones. 
- 
-Demo Video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o5TeWs34Jp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!--- Demo Video:
 
 
-https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f6969769-0264-4eab-8673-bed45a49b241
+https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f6969769-0264-4eab-8673-bed45a49b241 -->
 
 
 # Second Milestone
