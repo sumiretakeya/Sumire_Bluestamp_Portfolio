@@ -53,7 +53,27 @@ https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f696
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone --> 
 
-For my second milestone, I trained my machine learning model from my collected data from two exercises on Edge Impulse, an embedded machine learning operations platform, and was able to get an accuracy of 96.64%, which I then proceeded to deploy into an Arduino zip library. (An automatically generated neural network with the best settings for the model)
+For my second milestone, I first trained my machine learning model from the collected data from my first milestone. Using Edge Impulse, an embedded machine learning operations platform, I was able to get an accuracy of 96.64% for my model, which I then proceeded to deploy into an Arduino zip library.
+
+I also made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, “firebase init”.
+
+I then uploaded the code for my ML model and library ZIP file built through Edge Impulse on the Arduino IDE to build a user interface with working features.
+
+To get Bluetooth Low Energy features in my code, I pasted parts of the original GetFit code that included BLE function calls. After uploading the modified code to the Arduino Nano, the Arduino was successfully able to recognize the key features of the tracker: recognize each exercise and count the number of repetitions. It was apparent that the Arduino was able to recognize each exercise (side raises and lateral raises) after observing the given accuracy score for each exercise on the serial monitor when doing a certain exercise. For scores greater than 0.8, it indicated that the Arduino had recognized that one specific exercise. On the other hand, output scores less than 0.5 indicated that the Arduino did not recognize that specific exercise, and that one was most likely doing another exercise instead. The number of repetitions was displayed on the serial monitor and recorded in 2-second intervals.
+
+I connected the source files to the UI by adding the Firebase configuration to the script.js file of the original source file.
+
+To set up the user interface, I modified the original source code so that it would accurately display only the necessary components of my project (Two exercises: side raises and arm circles) by removing the unused components in the index.html files. (The code for sit ups, planks, etc., as my version only counts side exercises and arm circles.)
+
+I deployed my updated user interface through the command “firebase deploy” and opened the (generated) Firebase project link, “ml-fitness-tracker.web.app”, which successfully displayed the features relevant to my machine learning model. (Only two exercises on main menu). After connecting the Arduino to the user interface through BLE, the counter accurately displayed the name of the exercises and recorded the number of repetitions, which meant that my own model was able to execute the features of the original file.
+
+When accessing the webpage deployed through Firebase called “https://ml-fitness-tracker.web.app”, the user interface worked seamlessly, as I was able to successfully establish a BLE connection with the Arduino Nano. The exercises counter also worked, meaning that if one were to do one arm circle, the counter on the user interface would display an additional arm circle.
+
+A challenge that I faced was changing the format of the user interface, as the format would become disorganized when removing a label, which led me to adjust the positions of the components in the user interface through editing the style.css file. (Ex: place the button for arm circles down two columns, the button for side raises to the right 1 column, etc.).
+
+For my next milestone, I would like to make a juggling counter by creating an entirely new project and recreating the steps of the three milestones.
+
+<!--- For my second milestone, I trained my machine learning model from my collected data from two exercises on Edge Impulse, an embedded machine learning operations platform, and was able to get an accuracy of 96.64%, which I then proceeded to deploy into an Arduino zip library. (An automatically generated neural network with the best settings for the model)
 
 I then made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, "firebase init".
 
@@ -66,7 +86,7 @@ I then opened the website created through Firebase and enabled "Experimental Web
 When accessing the webpage "https://ml-fitness-tracker.web.app", which I created through Firebase, the user interface worked seamlessly, as I 
 was able to successfully connect the Arduino Nano with a Bluetooth connection (the feature), and the counter of exercises worked, meaning that if one holding the Arduino Nano were to do one arm circle, the counter on the user interface would display an additional arm circle.
 
-For my next milestone, I will use my own code and library from my machine learning model to set up the user interface and exercise counter.
+For my next milestone, I will use my own code and library from my machine learning model to set up the user interface and exercise counter. -->
 
 <!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
