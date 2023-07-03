@@ -23,6 +23,7 @@ Ever wish you could track your fitness progress? Want a friendly device to count
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
 For my third milestone, I made a juggling counter by creating an entirely new project and recreating the steps of the previous two milestones. Similar to the fitness tracker, I followed the steps, such as collecting data, adding BLE features,  
 
 I first set up the Arduino by connecting it to Edge Impulse using the command "edge-impulse-daemon" on the terminal. On Edge Impulse, I created a new project titled "juggling", and collected around 30 minutes of data for my ML model. I collected data for four labels: Juggling, non-juggling exercise, still movement, and small movement.
@@ -67,7 +68,7 @@ https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f696
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone --> 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/seyG_d6e5Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 For my second milestone, I first trained my machine learning model from the collected data from my first milestone. Using Edge Impulse, an embedded machine learning operations platform, I was able to get an accuracy of 96.64% for my model, which I then proceeded to deploy into an Arduino zip library.
 
 I also made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, “firebase init”.
