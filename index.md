@@ -23,8 +23,23 @@ Ever wish you could track your fitness progress? Want a friendly device to count
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-The goal for this milestone was to use my own machine learning model and upload it into the user interface with the working features (with the working counter).
+For my third milestone, I made a juggling counter by creating an entirely new project and recreating the steps of the previous two milestones. Similar to the fitness tracker, I followed the steps, such as collecting data, adding BLE features,  
 
+I first set up the Arduino by connecting it to Edge Impulse using the command "edge-impulse-daemon" on the terminal. On Edge Impulse, I created a new project titled "juggling", and collected around 30 minutes of data for my ML model. I collected data for four labels: Juggling, non-juggling exercise, still movement, and small movement.
+
+I then trained the collected data, downloaded the ML model code and Arduino zip library, and uploaded that into the Arduino IDE. 
+
+To get BLE features into my code, I added parts of the original GetFit code that included BLE function calls. 
+
+I uploaded my code onto the Arduino Nano and juggling was recognized, as the serial monitor displayed a score of around 0.9 for the Juggling label, accurately predicting the movement as a juggle. 
+
+I then opened the Firebase project that I used for my ML fitness tracker and replaced the labels with a "Juggling" label. I then deployed the user interface through the command "firebase-deploy" and opened the generated project link, which accurately displayed the juggling labels and a working juggling counter, which meant that one juggle would display an additional juggle on the web page counter. 
+
+A challenge that I faced was that the Arduino initially detected excess movements such as holding the ball still and getting ready to throw the ball as a juggle, as the data taken for the Juggling label on Edge Impulse included both the throwing motion as well as the excess movements. I solved this by collecting data on slight and still movements under separate labels so that the Arduino would only recognize the dramatic "spike" created from the throwing movement as a juggle from the juggling label.  
+
+For future improvements to this project, I would like to collect data from various people, as I only collected data from myself for this milestone. In addition, I would also like to make a completely new user interface for this milestone, as I just worked off the previous ML fitness tracker user interface from the previous two milestones.  
+
+<!---The goal for this milestone was to use my own machine learning model and upload it into the user interface with the working features (with the working counter).
 For my third milestone, I first uploaded the code for my machine learning model built through Edge Impulse on the Arduino and installed my own library from my Edge Impulse ZIP files.
 
 To get BLE features in my code, I pasted parts of the original code that included BLE function calls. After (Successfully) uploading the modified code to the Arduino Nano, the Arduino was successfully able to recognize the key features of the tracker: recognize each exercise and count the number of repetitions. It was apparent that the Arduino was able to recognize each exercise (side raises and lateral raises) after observing the given accuracy score for each exercise on the serial monitor when doing a certain exercise. For scores greater than 0.8, it indicated that the Arduino had recognized that one specific exercise. On the other hand, output scores less than 0.5 indicated that the Arduino did not recognize that specific exercise, and that one was most likely doing another exercise instead. The number of repetitions was displayed on the serial monitor and recorded in 2-second intervals.
@@ -37,7 +52,7 @@ However, while making these changes, the format of the user interface became dis
 
 I deployed my updated user interface through the command "firebase deploy" and opened the (generated) Firebase project link, "ml-fitness-tracker.web.app", which successfully displayed the features relevant to my machine learning model. (Only two exercises on main menu). After connecting the Arduino to the user interface through BLE, the counter accurately displayed the name of the exercises and recorded the number of repetitions, which meant that my own model was able to execute the features of the original file.
 
-For my next milestone, I would like to make a juggling counter (instead of a fitness counter) by setting up an entirely new project and recreating the steps of the three milestones. 
+For my next milestone, I would like to make a juggling counter (instead of a fitness counter) by setting up an entirely new project and recreating the steps of the three milestones. -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o5TeWs34Jp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- Demo Video:
