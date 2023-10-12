@@ -63,8 +63,8 @@ For my next milestone, I would like to make a juggling counter (instead of a fit
 
 https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f6969769-0264-4eab-8673-bed45a49b241 -->
 
-
 # Second Milestone
+
 <!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
