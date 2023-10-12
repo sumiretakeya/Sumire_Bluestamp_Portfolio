@@ -1,13 +1,15 @@
-# ML Fitness Tracker
+# Juggling Fitness Tracker
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
 <!--- ("Add a Hook Here* Something like: Ever wish you could track your fitness progress? Want a friend/device to count your never-ending reps? (Well,) Look no further. ). An Arduino powered, BLE (Bluetooth Low Energy) based fitness tracker that detects numerous exercises and records the number of repetitions on a user interface (Insert Name Here). -->
 
-Ever wish you could track your fitness progress? Want a friendly device to count your never-ending reps? Well, Look no further. GetFit is an Arduino powered, BLE (Bluetooth Low Energy) based fitness tracker that detects numerous exercises and records the number of repetitions on a user interface (Insert Name Here).
+<!--- Ever wish you could track your fitness progress? Want a friendly device to count your never-ending reps? Well, Look no further. GetFit is an Arduino powered, BLE (Bluetooth Low Energy) based fitness tracker that detects numerous exercises and records the number of repetitions on a user interface. -->
+
+Ever wish you could track your juggling progress? Want a friendly device to count your never-ending throwing reps? Well, Look no further! TrackJuggle is an Arduino powered, BLE (Bluetooth Low Energy) based juggling count tracker that detects juggling ball motion and records the number of repetitions on a user interface.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Sumire T | Homestead High School | Electrical Engineering | Incoming Senior
+| Sumire T | Homestead High School | Mechanical Engineering | Incoming Senior
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
@@ -24,7 +26,7 @@ Ever wish you could track your fitness progress? Want a friendly device to count
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-For my third milestone, I made a juggling counter by creating an entirely new project and recreating the steps of the previous two milestones. Similar to the fitness tracker, I followed the steps, such as collecting data, adding BLE features,  
+For my third milestone, I made a juggling counter by creating an entirely new project and recreating the steps of the previous two milestones. Similar to the fitness tracker, I followed steps such as collecting data, adding BLE features, and setting up the user interface. 
 
 I first set up the Arduino by connecting it to Edge Impulse using the command "edge-impulse-daemon" on the terminal. On Edge Impulse, I created a new project titled "juggling", and collected around 30 minutes of data for my ML model. I collected data for four labels: Juggling, non-juggling exercise, still movement, and small movement.
 
@@ -68,7 +70,6 @@ https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f696
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone --> 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/seyG_d6e5Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 For my second milestone, I first trained my machine learning model from the collected data from my first milestone. Using Edge Impulse, an embedded machine learning operations platform, I was able to get an accuracy of 96.64% for my model, which I then proceeded to deploy into an Arduino zip library.
 
 I also made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, “firebase init”.
@@ -88,7 +89,7 @@ When accessing the webpage deployed through Firebase called “https://ml-fitnes
 A challenge that I faced was changing the format of the user interface, as the format would become disorganized when removing a label, which led me to adjust the positions of the components in the user interface through editing the style.css file. (Ex: place the button for arm circles down two columns, the button for side raises to the right 1 column, etc.).
 
 For my next milestone, I would like to make a juggling counter by creating an entirely new project and recreating the steps of the three milestones.
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/seyG_d6e5Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- For my second milestone, I trained my machine learning model from my collected data from two exercises on Edge Impulse, an embedded machine learning operations platform, and was able to get an accuracy of 96.64%, which I then proceeded to deploy into an Arduino zip library. (An automatically generated neural network with the best settings for the model)
 
 I then made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, "firebase init".
@@ -639,19 +640,6 @@ uint8_t poll_APDS_gesture(void) {
     return 0;
 }
 ```
-UI Code:
-```c++
-*Code Here*
-```
-GitHub Link to Source Code:
-[https://github.com/CodersCafeTech/GetFit](https://github.com/CodersCafeTech/GetFit)
-
-GitHub Link to My Arduino Library:
-[https://github.com/sumiretakeya/MlLibrary](https://github.com/sumiretakeya/MlLibrary)
-
-GitHub Link to My UI Files:
-[https://github.com/sumiretakeya/htmlFile](https://github.com/sumiretakeya/htmlFile)
-
 <!--- ```c++
 void setup() {
   // put your setup code here, to run once:
@@ -672,11 +660,11 @@ Here is the list of materials that I used for my project. One can either choose 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino Nano 33 BLE Sense with Headers | What the item is used for | $43.50 | <a href="https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense-with-headers"> Link </a> |
-| Anker PowerCore 5000 Portable Charger | Hardware, What the item is used for | $17.99 | <a href="https://a.co/d/bzSM61g"> Link </a> |
-| 18" x 2" Cinch Strap | What the item is used for | $18.53 | <a href="https://a.co/d/isdqSpr"> Link </a> |
+| Arduino Nano 33 BLE Sense with Headers | The "Brain" | $43.50 | <a href="https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense-with-headers"> Link </a> |
+| Anker PowerCore 5000 Portable Charger | Hardware | $17.99 | <a href="https://a.co/d/bzSM61g"> Link </a> |
+| 18" x 2" Cinch Strap | Attach Tracker to Body | $18.53 | <a href="https://a.co/d/isdqSpr"> Link </a> |
 | Cardboard | Build a relatively sturdy case if 3D case is not an option |$0 - $9.81 | <a href="https://www.staples.com/Corrugated-Sheet-24-x-48-5-Bundle-SP2448/product_946708?cid=PS:GS:SBD:PLA:MS&gclid=CjwKCAjw-b-kBhB-EiwA4fvKrGfs_8eTA5h1a_B92vL9k0gwqHrUV5KCjFd3ZyT2keSoWiSbKTE8qhoCt64QAvD_BwE"> Link </a> |
-| 3D Case | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 3D Case | Case to Hold Arduino Nano | $0 - $10 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 <!--- # Dimensions of 3D Case -->
 
@@ -684,11 +672,19 @@ Here is the list of materials that I used for my project. One can either choose 
 <!--- # Dimensions of DIY Case -->
 
 # Other Resources
+GitHub Link to Source Code:
+[https://github.com/CodersCafeTech/GetFit](https://github.com/CodersCafeTech/GetFit)
 
-Link to Helpful Websites Used to Complete this Project:
-(https://docs.google.com/document/d/1gp4OPdYfRvL58Zp1qBMSvtmFS1bA3fpqKweGuT3sNpk/edit?usp=sharing)
+GitHub Link to My Arduino Library:
+[https://github.com/sumiretakeya/MlLibrary](https://github.com/sumiretakeya/MlLibrary)
 
-Other:
+GitHub Link to My UI Files:
+[https://github.com/sumiretakeya/htmlFile](https://github.com/sumiretakeya/htmlFile)
+
+Helpful Websites Used to Complete this Project:
+[https://docs.google.com/document/d/1gp4OPdYfRvL58Zp1qBMSvtmFS1bA3fpqKweGuT3sNpk/edit?usp=sharing](https://docs.google.com/document/d/1gp4OPdYfRvL58Zp1qBMSvtmFS1bA3fpqKweGuT3sNpk/edit?usp=sharing)
+
+
 
 
 <!--- # Other Resources/Examples
