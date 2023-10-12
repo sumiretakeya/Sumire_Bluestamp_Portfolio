@@ -131,7 +131,7 @@ Another challenge that I faced was initially only recording data from myself, wh
 For the next milestone, I will train the machine learning model on Edge Impulse and test it until I get good accuracy. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xJzyyJrNCDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Schematics 
+<!--- # Schematics 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
@@ -656,7 +656,7 @@ void loop() {
 # Bill of Materials
 <!---- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
-Here is the list of materials that I used for my project. One can either choose to make their own DIY case or 3D print it out. The cost breakdown of both options are listed below:
+Here is the cost breakdown of the materials that I used for my project. (For the case, one can either choose to make a DIY case or 3D print it and both options are listed below.)
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
