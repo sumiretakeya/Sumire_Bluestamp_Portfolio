@@ -57,7 +57,6 @@ I deployed my updated user interface through the command "firebase deploy" and o
 
 For my next milestone, I would like to make a juggling counter (instead of a fitness counter) by setting up an entirely new project and recreating the steps of the three milestones. -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o5TeWs34Jp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- Demo Video:
 
 
@@ -89,6 +88,8 @@ When accessing the webpage deployed through Firebase called “https://ml-fitnes
 A challenge that I faced was changing the format of the user interface, as the format would become disorganized when removing a label, which led me to adjust the positions of the components in the user interface through editing the style.css file. (Ex: place the button for arm circles down two columns, the button for side raises to the right 1 column, etc.).
 
 For my next milestone, I would like to make a juggling counter by creating an entirely new project and recreating the steps of the three milestones.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o5TeWs34Jp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/seyG_d6e5Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- For my second milestone, I trained my machine learning model from my collected data from two exercises on Edge Impulse, an embedded machine learning operations platform, and was able to get an accuracy of 96.64%, which I then proceeded to deploy into an Arduino zip library. (An automatically generated neural network with the best settings for the model)
 
