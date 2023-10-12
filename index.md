@@ -63,7 +63,9 @@ For my next milestone, I would like to make a juggling counter (instead of a fit
 https://github.com/sumiretakeya/Sumire_Bluestamp_Portfolio/assets/107578593/f6969769-0264-4eab-8673-bed45a49b241 -->
 
 # Second Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o5TeWs34Jp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/seyG_d6e5Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
@@ -88,9 +90,6 @@ When accessing the webpage deployed through Firebase called “https://ml-fitnes
 A challenge that I faced was changing the format of the user interface, as the format would become disorganized when removing a label, which led me to adjust the positions of the components in the user interface through editing the style.css file. (Ex: place the button for arm circles down two columns, the button for side raises to the right 1 column, etc.).
 
 For my next milestone, I would like to make a juggling counter by creating an entirely new project and recreating the steps of the three milestones.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o5TeWs34Jp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/seyG_d6e5Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- For my second milestone, I trained my machine learning model from my collected data from two exercises on Edge Impulse, an embedded machine learning operations platform, and was able to get an accuracy of 96.64%, which I then proceeded to deploy into an Arduino zip library. (An automatically generated neural network with the best settings for the model)
 
 I then made a new project in Firebase, an app development platform, to create a hosting site between the user interface and the Arduino bluetooth connection. I initialized the newly created project by running the command, "firebase init".
@@ -111,13 +110,14 @@ For my next milestone, I will use my own code and library from my machine learni
 <iframe width="560" height="315" src="https://youtu.be/xJzyyJrNCDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 # First Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xJzyyJrNCDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
+<!--- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
  
 My project is the machine-learning fitness tracker, a device one attaches to their arm that is powered by an Arduino through BLE (Bluetooth Low Energy) connection that detects different exercises (Ex: jumping jacks, squats, etc.) and ultimately records the number of repetitions on a user interface. 
 For my first milestone, I first set up the Arduino (a microcontroller) by connecting it to Edge Impulse, a platform that uses embedded machine learning. I got the Arduino to be recognized by running the command "edge-impulse-daemon" on the terminal. 
@@ -130,7 +130,6 @@ A challenge that I faced was finding a way to take accurate data with the armban
 Another challenge that I faced was initially only recording data from myself, which resulted in the model having a 100% accuracy, which meant that it was overtrained with my movements, and would not be able to detect the same exercise if another person were to try it. To solve this, I collected data from more people. 
 
 For the next milestone, I will train the machine learning model on Edge Impulse and test it until I get good accuracy. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xJzyyJrNCDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!--- # Schematics 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
