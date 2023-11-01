@@ -11,9 +11,9 @@ Ever wish you could track your juggling progress? Want a friendly device to coun
 |:--:|:--:|:--:|:--:|
 | Sumire T | Homestead High School | Mechanical Engineering | Incoming Senior
 
-<!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
+<!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** 
 
-![Headstone Image](Sumire-Headshot.png){:height="50%" width="50%"}
+![Headstone Image](Sumire-Headshot.png){:height="50%" width="50%"} -->
   
 # Final Milestone
 <!--- For your final milestone, explain the outcome of your project. Key details to include are:
