@@ -15,7 +15,7 @@ Ever wish you could track your juggling progress? Want a friendly device to coun
 
 ![Headstone Image](Sumire-Headshot.png){:height="50%" width="50%"} -->
 
-![My Image Description](eng.png){: style="display: block; margin: 0 auto;"}
+![My Image Description](eng.jpg){: style="display: block; margin: 0 auto;"}
 
 # Final Milestone
 <!--- For your final milestone, explain the outcome of your project. Key details to include are:
